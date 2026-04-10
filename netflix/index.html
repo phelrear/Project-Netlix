@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Escolha seu perfil</h1>
+        <div class="theme-switcher" role="group" aria-label="Escolha de tema">
+            <button type="button" class="theme-button active" data-theme="dark" aria-pressed="true">Escuro</button>
+            <button type="button" class="theme-button" data-theme="light" aria-pressed="false">Claro</button>
+            <button type="button" class="theme-button" data-theme="abyss" aria-pressed="false">Abyss</button>
+        </div>
+    </header>
+    <main>
+        <div class="profiles-wrapper">
+            <section class="profile-bottom-card" aria-hidden="true"></section>
+            <section class="container" aria-label="Perfis de usuário">
+                <ul>
+                    <li class="profile">
+                    <a href="catalogo/catalogo0.html" class="profile-link" data-profile="1" aria-label="Acessar perfil 1">
+                        <figure>
+                            <img src="/assets/ThorfinnVinlandArc2.png" alt="Perfil 1">
+                            <figcaption>Perfil 1</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="catalogo/catalogo.html" class="profile-link" data-profile="2" aria-label="Acessar perfil 2">
+                        <figure>
+                            <img src="/assets/maomao.png" alt="Perfil 2">
+                            <figcaption>Perfil 2</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
